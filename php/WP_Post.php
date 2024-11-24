@@ -35,5 +35,8 @@ class WP_Post implements \JsonSerializable {
         }
         $this->respuesta = $response;
     }
+    public function getTemperatures() {
+        
+    }
 }
 ?>
